@@ -68,7 +68,10 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.purple,
-          title: Text("Simple Calculator"),
+          title: Text(
+            "Calculator A Rai Near Tum Mai Tae Jung",
+            style: TextStyle(color: Colors.white),
+          ),
         ),
         body: SafeArea(
             child: Column(
@@ -78,7 +81,10 @@ class _MyAppState extends State<MyApp> {
               alignment: Alignment.center,
               child: Text(
                 result,
-                style: TextStyle(fontSize: 48, fontWeight: FontWeight.bold),
+                style: TextStyle(
+                    fontSize: 48,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.purple),
               ),
             ),
             Expanded(
